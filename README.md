@@ -1,4 +1,13 @@
 ## Welcome to Our OS Project 2018
+##Project Details
+CS205 Operating System Project
+Members: 
+Huzaifah Punjani (16K-3924)
+Taban Shaukat (16K-3937)
+Fareeha Sattar Shaikh (16K-3934)
+
+Submitted by: Miss Sumaiyah Zahid
+
 ##OBJECTIVE:
 Our project will mainly focus on the differences between multithreading and multiprocessing. The performance comparison will be observed by the implementation of merge sort. check out our codes in the directory of [CODES](https://github.com/huzaifahpunjani/Project-OS/tree/master/Source-Code)
 
