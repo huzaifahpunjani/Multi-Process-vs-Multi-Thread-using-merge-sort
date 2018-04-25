@@ -1,21 +1,25 @@
 ## Welcome to Our OS Project 2018
 #OBJECTIVE:
-Our project will mainly focus on the differences between multithreading and multiprocessing. The performance comparison will be observed by the implementation of merge sort.
-#INTRODUCTION:
+Our project will mainly focus on the differences between multithreading and multiprocessing. The performance comparison will be observed by the implementation of merge sort. check out our codes in the directory of CODES
+
+##INTRODUCTION:
 We will show the comparison by implementing sorting algorithm i.e. Merge Sort in different ways: using multithreading and multiprocessing. We will compare the performance of this sorting algorithm with respect to time, number of inputs and speed in relation with multiple threads and multiple processes.
-#PROGRAMMING PLATFORM USED:
+
+##PROGRAMMING PLATFORM USED:
 The programming platform used is C Language
 The operating system that we worked on is Ubuntu.
 git and github
-#METHODOLOGY:
+
+##METHODOLOGY:
 For a single thread and a single process, we implemented a single of merge sort.
 For multithreading, we have used the library of pthread to create multiple threads and have joined the threads after merging of split parts while applying merge sort, whereas, for process, we have used the ipc and shm library with fork function to create 2 child processes then we called merge sort for both the processes on equal halves of number of elements attaching shared memory so that both processes concurrently work on the same memory space. Their sorted results were then merged and the shared memory was detached.
 to split the number of elements in equal halves to make them sorted through merge sort technique with shared memory implemented through ipc and shm library functions. We can see that when number of threads and process were one no difference was there. But, when number of process and threads were increased to two, number of threads worked more slowly as compare to two processes for the same number of elements. The speed is achieved by dividing the execution time of the sequential version over the execution 
 
-#APPLICATION:
+##APPLICATION:
 Multithreading and Multi Processing are two ways. Both have their respective usage, but nowadays multithreading is more widely used rather than multiprocessing. Because multiprocessing creates a overhead of PCBs in huge computations. 
 Web servers, games like Angry birds, text editors to check errors and web browsers to create multiple tabs uses Multithreading.
 Multiprocessing were used before the threads. It is not widely used nowadays. 
-#CONCLUSION:
+
+##CONCLUSION:
 The conclusion which can be drawn from the graphs is that Merge sort is working faster in Multiprocessing as compared to multithreading. The reason is that, multithreading is creating an overhead of synchronization of the threads, secondly as merge sort works on divide and conquer rule so we have to merge all the parts at the end which is time consuming. Whereas, in multiprocessing the overhead of joining the divided parts at end is not there that’s why it’s faster compare to multi-threading
 
