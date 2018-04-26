@@ -15,9 +15,9 @@ Our project will mainly focus on the differences between multithreading and mult
 We will show the comparison by implementing sorting algorithm i.e. Merge Sort in different ways: using multithreading and multiprocessing. We will compare the performance of this sorting algorithm with respect to time, number of inputs and speed in relation with multiple threads and multiple processes.
 
 ##PROGRAMMING PLATFORM USED:
-The programming platform used is C Language
-The operating system that we worked on is Ubuntu.
-git and github
+-The programming platform used is C Language
+-The operating system that we worked on is Ubuntu.
+-git and github
 
 ##METHODOLOGY:
 For a single thread and a single process, we implemented a single of merge sort.
