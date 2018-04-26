@@ -1,6 +1,6 @@
 ## Welcome to Our OS Project 2018
-#OBJECTIVE:
-Our project will mainly focus on the differences between multithreading and multiprocessing. The performance comparison will be observed by the implementation of merge sort. check out our codes in the directory of CODES
+##OBJECTIVE:
+Our project will mainly focus on the differences between multithreading and multiprocessing. The performance comparison will be observed by the implementation of merge sort. check out our codes in the directory of [CODES](https://github.com/huzaifahpunjani/Project-OS/tree/master/Source-Code)
 
 ##INTRODUCTION:
 We will show the comparison by implementing sorting algorithm i.e. Merge Sort in different ways: using multithreading and multiprocessing. We will compare the performance of this sorting algorithm with respect to time, number of inputs and speed in relation with multiple threads and multiple processes.
