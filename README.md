@@ -1,5 +1,5 @@
-### Welcome to Our OS Project 2018
-### Project Details
+### WELCOME TO OS-PROJECT 2018
+### PROJECT DETAILS:
 CS205 Operating System Project
 Members: 
 [Huzaifah Punjani 16K-3924](https://github.com/huzaifahpunjani)
