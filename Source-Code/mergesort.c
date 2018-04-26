@@ -1,10 +1,7 @@
 /* C program for Merge Sort */
-
 #include<stdlib.h>
 #include<stdio.h>
 #include <time.h>
-
- 
 // Merges two subarrays of arr[].
 // First subarray is arr[l..m]
 // Second subarray is arr[m+1..r]
