@@ -1,5 +1,5 @@
-// C program to implement concurrent merge sort
-#include <sys/types.h>
+// C program to implement concurrent merge sort using multiprocess of 2 Process 
+#include <sys/types.h> 
 #include <sys/ipc.h>
 #include <sys/shm.h>
 #include <stdio.h>
