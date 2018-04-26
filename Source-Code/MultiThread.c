@@ -57,7 +57,7 @@ void * mergesort(void *a)
         if (p->i >= p->j)
 	 return 0;
 
-	
+	//creating first thread	
         ret = pthread_create(&tid1, NULL, mergesort, &n1);
         if (ret) {
                 
@@ -65,13 +65,13 @@ void * mergesort(void *a)
                 exit(1);
         }
 
-
+	//creating second thread
         ret = pthread_create(&tid2, NULL, mergesort, &n2);
         if (ret) {
                 printf("%d %s - unable to create thread - ret - %d\n", __LINE__, __FUNCTION__, ret);    
                 exit(1);
         }
-
+	//joining the threads
         pthread_join(tid1, NULL);
         pthread_join(tid2, NULL);
 
