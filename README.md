@@ -12,12 +12,12 @@ Submitted to: [Miss Sumaiyah Zahid](https://github.com/sumaiyah-zahid)
 Our project will mainly focus on the differences between multithreading and multiprocessing. The performance comparison will be observed by the implementation of merge sort. check out our [CODES Here](https://github.com/huzaifahpunjani/Project-OS/tree/master/Source-Code) and project [report here](https://github.com/huzaifahpunjani/Project-OS/blob/master/OS_PROJECT_REPORT_16K3924_16K3934_16K3937.docx).
 
 ## INTRODUCTION:
-We will show the comparison by implementing sorting algorithm i.e. Merge Sort in different ways: using multithreading and multiprocessing. We will compare the performance of this sorting algorithm with respect to time, number of inputs and speed in relation with multiple threads and multiple processes.
+We will show the comparison by implementing sorting algorithm i.e. **Merge Sort** in different ways: using multithreading and multiprocessing. We will compare the performance of this sorting algorithm with respect to time, number of inputs and speed in relation with multiple threads and multiple processes.
 
 ## PROGRAMMING PLATFORM USED:
--The programming platform used is C Language
--The operating system that we worked on is Ubuntu.
--git and github
+- The programming platform used is **C Language**.
+- The operating system that we worked on is **Ubuntu**.
+- **Git** and **github**.
 
 ## METHODOLOGY:
 For a single thread and a single process, we implemented a single of merge sort.
