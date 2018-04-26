@@ -6,7 +6,7 @@ Members:
 [Taban Shaukat 16K-3937](https://github.com/tabanshaukat)
 [Fareeha Sattar Shaikh 16K-3934](https://github.com/Fareeha-Sattar)
 
-Submitted by: [Miss Sumaiyah Zahid](https://github.com/sumaiyah-zahid)
+Submitted to: [Miss Sumaiyah Zahid](https://github.com/sumaiyah-zahid)
 
 ##OBJECTIVE:
 Our project will mainly focus on the differences between multithreading and multiprocessing. The performance comparison will be observed by the implementation of merge sort. check out our codes in the directory of [CODES](https://github.com/huzaifahpunjani/Project-OS/tree/master/Source-Code)
