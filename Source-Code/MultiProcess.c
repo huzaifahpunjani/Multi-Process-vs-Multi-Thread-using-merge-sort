@@ -135,22 +135,17 @@ void isSorted(int arr[], int len)
     return;
 }
  
-// To fill randome values in array for testing
-// purpise
+// To fill randome values in array for testing purpose
 void TakingInput(int arr[], int len)
 {
-    // Create random arrays
+    // Create randomly generated array
     int i;
     for (i=0; i<len; i++)
 	{
 	arr[i] = rand()%100;
 	printf ("%d ",arr[i]);
 	}	
-    return;
-}
-
- 
-// Driver code
+    return
 int main()
 {
     int shmid;
@@ -158,8 +153,6 @@ int main()
     int *shm_array;
  
  
-    // Using fixed size array.  We can uncomment
-    // below lines to take size from user
     int length;
  
     printf("Enter No of elements of Array:");
