@@ -43,7 +43,9 @@ Web servers, games like Angry birds, text editors to check errors and web browse
 Multiprocessing were used before the threads. It is not widely used nowadays. 
 
 ### CONCLUSION:
-The conclusion which can be drawn from the graphs is that Merge sort is working faster in Multiprocessing as compared to multithreading. The reason is that, multithreading is creating an overhead of synchronization of the threads, secondly as merge sort works on divide and conquer rule so we have to merge all the parts at the end which is time consuming and there are architecture limitations too. Secondly, multithreading works faster on heavy computations. 
+The conclusion which can be drawn from our measurements and analysis is that Merge sort is working faster in Multiprocessing as compared to multithreading. The reason is that, multithreading is creating an overhead of synchronization of the threads, secondly as merge sort works on divide and conquer rule so we have to merge all the parts at the end which is time consuming and there are architecture limitations too. Secondly, multithreading works faster on heavy computations. 
+
+You can refer report for more better understanding and approach.
 
 If you like our work, Do star it.
 Share,
