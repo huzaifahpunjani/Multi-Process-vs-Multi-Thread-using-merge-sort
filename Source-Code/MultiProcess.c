@@ -145,7 +145,9 @@ void TakingInput(int arr[], int len)
 	arr[i] = rand()%100;
 	printf ("%d ",arr[i]);
 	}	
-    return
+    return;
+}
+
 int main()
 {
     int shmid;
